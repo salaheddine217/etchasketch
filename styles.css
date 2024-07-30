@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items onto multiple lines */
+    box-sizing: border-box;
+    
+    align-content: center;
+    width: 80vmin; /* Adjust size as needed */
+    height: 80vmin;
+    max-width: 80vmin;
+    max-height: 80vmin; /* Adjust size as needed 80vmin*/
+}
+
+.box {
+    /* 100% divided by 16 items */
+    background-color: #3498db;
+    border: 1px solid #fff;
+}
+
+.box-hover {
+    color: red;
+    background: purple;
+}
+
+.question {
+    margin: auto 50% ;
+    display: flex;
+    gap: 10px;
+    width: max-content;
+}
